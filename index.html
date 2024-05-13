@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Matematica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Trabalho Matematica</h1>
+        <a href="#heron">Heron</a>
+    </header>
+
+<section class="container" id="container">
+
+    <div class="text_box">
+   
+    <input type="number" name="Number" id="poligno_name"  placeholder=" 1º Número de lados">
+    <input type="number" name="Number" id="poligno_value" placeholder="2º Medida do lado">
+    <input type="number" name="Number" id="medida_alt" placeholder="3º Medida da altura">
+    
+
+   </div>
+   
+        <section class="ipunts">
+    <input type="button" id="btn" value="OK" onclick="okbutton()">
+
+        </section>
+
+ <section class="input_names">
+
+    <h3 id="n_p">**Nome do Poligno**<hr><br>**FORMULA**</h3>
+    <h3 id="solid"> **Nome do Solido**<hr><br>**FORMULA** </h3>
+    <h3 id="n_s">Esfera<hr><br>**FORMULA**</h3>
+
+    
+    
+    <h3></h3>
+
+
+ </section>
+
+
+</section>
+
+
+<section id="heron">
+    <h1>Heron</h1>
+     <div class="inputs_heron">
+        <input type="number" name="a" id="a" placeholder="Lado A">
+        <input type="number" name="b" id="b" placeholder="Lado B">
+        <input type="number" name="c" id="c" placeholder="Lado B">
+        <input type="button" value="OK" onclick="heron_click()" id="btn2">
+     </div>
+     <h3 id="res">RESULTADO</h3>
+</section>
+
+
+ 
+<footer>
+    <p>&copy; Feito por João Pedro, Gabriel Alves, Vinicus e Nicolas</p>
+    <img src="https://logodownload.org/wp-content/uploads/2016/10/sesi-logo.png">
+</footer>
+</body>
+</html>
+<script src="script.js"></script>
